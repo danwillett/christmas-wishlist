@@ -1,0 +1,53 @@
+body {
+    min-height: 100vh;
+}
+
+.image-sizing {
+    max-height: 100%;
+    
+    width: 100%;
+    padding-top:20px; 
+    /* object-fit: cover; /* Equivalent of the background-size: cover; of a background-image */
+    object-position: center; 
+
+}
+
+.buffSpacing {
+    margin: 20px 10px;
+}
+
+.blank {
+    display: none;
+}
+
+#bio {
+    font-size: 20px;
+}
+
+#bio-pic {
+    flex-shrink: 0;
+    margin-bottom:5%;
+}
+
+main {
+    background-image: url("../images/IMG_4633_Original.jpg");
+    background-size: cover;
+    background-position: center;
+
+    align-items: center
+}
+
+.image-tall {
+    padding: 0 30%;
+}
+
+.custom-nav {
+    padding: 2.5% 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: darkred;
+    
+}
+
+.nav-item button {
+    border: none;
+}
